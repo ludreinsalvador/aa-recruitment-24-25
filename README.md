@@ -49,22 +49,6 @@ aa-recruitment-24-25/
 - CSS3
 - JavaScript (Vanilla)
 
-## Getting Started
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/ludreinsalvador/aa-recruitment-24-25.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd aa-recruitment-24-25
-   ```
-
-3. Open `about.html` in your browser or use a local development server.
-
 ## Assets
 
 The `assets/img/` directory contains all visual resources including:
@@ -77,13 +61,6 @@ The `assets/img/` directory contains all visual resources including:
 
 ## Development
 
-### File Organization
-
-- Main pages are in the root directory
-- Styles are organized in the `css/` folder
-- All images and icons are in `assets/img/`
-- JavaScript functionality is separated into individual `.js` files
-
 ### Components
 
 - **About Section**: Interactive carousel showcasing Ad Astra information
@@ -95,3 +72,4 @@ The `assets/img/` directory contains all visual resources including:
 **Role:** UI/UX Designer & Front-end Developer  
 **Organization:** Ad Astra: The Benildean Yearbook  
 **Publication Year:** 1T, A.Y. 2024-2025
+
