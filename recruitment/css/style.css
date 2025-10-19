@@ -1,0 +1,58 @@
+/* SEPARATED STYLES FOR MARQUEE */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: #4244E1;
+}
+
+.marquee p {
+    display: inline-block;
+    padding: 10px 0;
+    animation: scroll 10s linear infinite;
+    font-size: 2rem;
+    color: #FEFBF3;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Keyframes for scrolling animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 992px) {
+    body {
+        height: auto;
+    }
+
+    .marquee p {
+        font-size: 1.5rem;
+        padding: 5px 0;
+        animation: scroll 8s linear infinite;
+    }
+}
+
+@media (max-width: 600px) {
+    .marquee p {
+        font-size: 1.2rem;
+    }
+}
