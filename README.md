@@ -69,7 +69,8 @@ The `assets/img/` directory contains all visual resources including:
 
 ## Credits
 
-**Role:** UI/UX Designer & Front-end Developer  
+**Role:** UX Designer & Front-end Developer  
 **Organization:** Ad Astra: The Benildean Yearbook  
 **Publication Year:** 1T, A.Y. 2024-2025
+
 
